@@ -1,0 +1,12 @@
+{
+    "name": "#LINE Messaging API test PHP",
+    "description": "heroku 上にデプロイされる LINE Messaging APIのサーバースクリプト",
+    "repository": "https://github.com/skoiwa/MatchingApp1120.git",
+    "logo": "",
+    "keywords": ["php", "line-messaging-api"],
+    "env": {
+      "LINE_CHANNEL_ACCESS_TOKEN": {
+        "description": "Channel Access Token (LINE developers の Basic information で確認できます)"
+      }
+    }
+}
